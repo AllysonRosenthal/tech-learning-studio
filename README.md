@@ -35,6 +35,18 @@ D3, or data-driven documents, is a JavaScript library for creating highly custom
 # Using D3 with Geospatial Data
 I'm using D3 as a way to explore mapping and geospatial data.
 
+### Goals
+**Simple** - Complete the first [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this map](http://one.laptop.org/map) using D3
+
+**Stretch** - Make the map interactive.
+
+### Materials
+* *Interactive Data Visualization for the Web* by Scott Murray, especially Chapter 14: Geomapping
+* The #geo channel on the [D3 Slack](https://d3js.slack.com)
+* The [Spatial Community Slack](https://thespatialcommunity.slack.com)
+  * #d3
+  * #dataviz
+
 ## Week 1
 
 ## Week 2
@@ -45,3 +57,16 @@ I'm using D3 as a way to explore mapping and geospatial data.
 
 # Learning Crochet
 There's a third project for this course that focuses on a physical technology, for which I've chosen crochet. That project is available on [Ravelry](http://www.ravelry.com/projects/allyro/wonderland-sampler-scarf).
+
+### Goals
+**Simple** - Learn basic crochet.
+
+**Stretch** - Complete a [sampler scarf](http://www.ravelry.com/patterns/library/wonderland-sampler-scarf).
+
+### Materials
+* The crochet [pattern](http://www.ravelry.com/patterns/library/wonderland-sampler-scarf)
+* Classes at Gauge
+  * [Drop in](http://gaugeyarn.com/classes/drop-in-classes/drop-in-classes)
+  * [Monthly](http://gaugeyarn.com/classes/monthly-classes/learn-to-crochet-4)
+* The [Austin Knitting and Crocheting Meetup](https://www.meetup.com/austinknitting/events/)
+  
