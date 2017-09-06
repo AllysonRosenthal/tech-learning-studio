@@ -3,27 +3,44 @@ For the Fall 2017 semester, I'm enrolled in Dr. Howison's Technology Learning St
 
 I'll keep track of three learning projects in this repo. Two of those projects will focus on learning to use D3 with Scott Murray's *[Interactive Data Visualization for the Web](http://alignedleft.com/work/d3-book-2e)*. The third will be learning to crochet through a [sampler scarf](http://www.ravelry.com/patterns/library/wonderland-sampler-scarf).
 
-## Learning D3
-I'm working through Scott Murray's book, *Interactive Data Visualization for the Web*.
+# Learning D3
+D3, or data-driven documents, is a JavaScript library for creating highly customizable visualizations.
 
-### Week 1
+### Goals
+**Simple** - Complete the second [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this visualization](http://tinyletter.com/curran/letters/d3-makeover-ii) using D3.
 
-### Week 2
+**Stretch** - Apply my new D3 knowledge to a problem out in the wild. The Data for Democracy [hackathon](https://www.meetup.com/Data-for-Democracy-Austin/events/243063332/) is right at the end of the first unit, so I'll attend and see where I can jump in.
 
-### Week 3
+### Materials
+* *Interactive Data Visualization for the Web* by Scott Murray
+* The [D3 Slack](https://d3js.slack.com)
+  * #help
+  * #learning-materials
+  * #d3-makeover
+* The [Data for Democracy Slack](https://datafordemocracy.slack.com)
+  * #learning
+  * #viz-kids
+* The D3 [wiki](https://github.com/d3/d3/wiki)
 
-### Week 4
 
-## Using D3 with Geospatial Data
+## Week 1
+
+## Week 2
+
+## Week 3
+
+## Week 4
+
+# Using D3 with Geospatial Data
 I'm using D3 as a way to explore mapping and geospatial data.
 
-### Week 1
+## Week 1
 
-### Week 2
+## Week 2
 
-### Week 3
+## Week 3
 
-### Week 4
+## Week 4
 
-## Learning Crochet
+# Learning Crochet
 There's a third project for this course that focuses on a physical technology, for which I've chosen crochet. That project is available on [Ravelry](http://www.ravelry.com/projects/allyro/wonderland-sampler-scarf).
