@@ -24,4 +24,4 @@ I'm using D3 as a way to explore mapping and geospatial data.
 ### Week 4
 
 ## Learning Crochet
-There's a third project for this course, which is available on [Ravelry](http://www.ravelry.com/projects/allyro/wonderland-sampler-scarf).
+There's a third project for this course that focuses on a physical technology, for which I've chosen crochet. That project is available on [Ravelry](http://www.ravelry.com/projects/allyro/wonderland-sampler-scarf).
