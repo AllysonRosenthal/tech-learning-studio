@@ -7,7 +7,7 @@ I'll keep track of three learning projects in this repo. Two of those projects w
 D3, or data-driven documents, is a JavaScript library for creating highly customizable visualizations.
 
 ### Goals
-**Simple** - Complete the second [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this visualization](http://tinyletter.com/curran/letters/d3-makeover-ii) using D3.
+**Simple** - Complete the second [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this visualization](http://tinyletter.com/curran/letters/d3-makeover-ii) using D3 and submit it with the #d3Makeover hastag on Twitter.
 
 **Stretch** - Apply my new D3 knowledge to a problem out in the wild. The Data for Democracy [hackathon](https://www.meetup.com/Data-for-Democracy-Austin/events/243063332/) is right at the end of the first unit, so I'll attend and see where I can jump in.
 
@@ -21,6 +21,7 @@ D3, or data-driven documents, is a JavaScript library for creating highly custom
   * #learning
   * #viz-kids
 * The D3 [wiki](https://github.com/d3/d3/wiki)
+* The [source page](http://www.nws.noaa.gov/hic/flood_stats/recent_individual_deaths.shtml) for the D3 Makeover challenge
 
 
 ## Week 1
