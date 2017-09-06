@@ -6,12 +6,12 @@ I'll keep track of three learning projects in this repo. Two of those projects w
 # Learning D3
 D3, or data-driven documents, is a JavaScript library for creating highly customizable visualizations.
 
-### Goals
+## Goals
 **Simple** - Complete the second [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this visualization](http://tinyletter.com/curran/letters/d3-makeover-ii) using D3 and submit it with the #d3Makeover hastag on Twitter.
 
 **Stretch** - Apply my new D3 knowledge to a problem out in the wild. The Data for Democracy [hackathon](https://www.meetup.com/Data-for-Democracy-Austin/events/243063332/) is right at the end of the first unit, so I'll attend and see where I can jump in.
 
-### Materials
+## Materials
 * *Interactive Data Visualization for the Web* by Scott Murray
 * The [D3 Slack](https://d3js.slack.com)
   * #help
@@ -23,47 +23,30 @@ D3, or data-driven documents, is a JavaScript library for creating highly custom
 * The D3 [wiki](https://github.com/d3/d3/wiki)
 * The [source page](http://www.nws.noaa.gov/hic/flood_stats/recent_individual_deaths.shtml) for the D3 Makeover challenge
 
-
-## Week 1
-
-## Week 2
-
-## Week 3
-
-## Week 4
-
 # Using D3 with Geospatial Data
 I'm using D3 as a way to explore mapping and geospatial data.
 
-### Goals
+## Goals
 **Simple** - Complete the first [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this map](http://one.laptop.org/map) using D3
 
 **Stretch** - Make the map interactive.
 
-### Materials
+## Materials
 * *Interactive Data Visualization for the Web* by Scott Murray, especially Chapter 14: Geomapping
 * The #geo channel on the [D3 Slack](https://d3js.slack.com)
 * The [Spatial Community Slack](https://thespatialcommunity.slack.com)
   * #d3
   * #dataviz
 
-## Week 1
-
-## Week 2
-
-## Week 3
-
-## Week 4
-
 # Learning Crochet
 There's a third project for this course that focuses on a physical technology, for which I've chosen crochet. That project is available on [Ravelry](http://www.ravelry.com/projects/allyro/wonderland-sampler-scarf).
 
-### Goals
+## Goals
 **Simple** - Learn basic crochet.
 
 **Stretch** - Complete a [sampler scarf](http://www.ravelry.com/patterns/library/wonderland-sampler-scarf).
 
-### Materials
+## Materials
 * The crochet [pattern](http://www.ravelry.com/patterns/library/wonderland-sampler-scarf)
 * Classes at Gauge
   * [Drop in](http://gaugeyarn.com/classes/drop-in-classes/drop-in-classes)
