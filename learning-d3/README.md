@@ -18,7 +18,26 @@ I also ran into a problem with the command line developer tools, which I had to 
 ### Outside of Class
 I'm going to be sure to get the setup finished, so I can spend my time in class next week actually working through the textbook and examples. I'm also going to investigate how to share the project through bl.ocks.org, since it looks like that isn't covered in the textbook that I've chosen, but would be my preferred method for turning in this project.
 
+**Update 9/13/17**: Instructions for sharing a D3 project using bl.ocks are available [here](https://bl.ocks.org/-/about). Learning about how bl.ocks pulls in your projects via GitHub gists lead me to [this page](https://help.github.com/articles/about-gists/), which I found to be a helpful overview of gists.
+
+### Interlude
+I attended one of [Open Austin's](https://www.open-austin.org/) Civic Hack Nights on Tuesday, September 12th (which was the evening before our weekly class meeting). While there, I got plugged in to a [visualization project](https://github.com/open-austin/consumer-protection) using the city's data on consumer financial complaints. We decided to use D3, since I told the project lead that I'm working on learning D3, and he was cool with using this project as a learning opportunity. 
+
+Since I had yet to actually start working through any examples, I basically still had no idea how to start writing D3. So, we started from someone else's example. Once we changed the data reference to point to our data instead of the example data, everything just stopped working. The error said the data was `NaN`, despite the CSV clearly containing numbers. The whole evening ended up going to trying (and failing) to troubleshoot that issue, but now that I'm set up with a project, I can use it to reinforce the examples in the book.
+
+
 ## Week 2
+
+### In Class
+**Issue**: The book tells you how to set up a Python web server with `SimpleHTTPServer`, but doesn't tell you how to stop it. So, when I went set up the learning-d3 project, I was already using the recommended port for my tech-learning-studio folder. It was easily fixed by 1. trying a different port and 2. a Stack Overflow thread with the solution, but it's a little frustrating to be asked to run a command with no note about how to kill the process.
+
+* You can actually navigate from the tech-learning-studio folder to the learning-d3 folder if it's already being served by adding the filepath to the URL. Basic, but unlikely that anyone who needs setting up a local server explained (as in Chapter 4) will know how to navigate it once it's set up. I only figured it out after looking at the URL containing the full filepath in the Chapter 5's first example.
+
+**Aha moment #1**: Scott Murray calls out an almost impossible to debug issue in Chapter 5: When a CSV is pulled into D3, everything is a string. You can only see that it's a string by logging the data to the console *after* it's been pulled in (which is why we kept getting the `NaN` error yesterday, even though it was a number...before getting pulled into the script). Having an in-progress project that let me see the problem play out and then finding the solution was really satisfying, and I'll definitely remember this gotcha in the future. If I had just been reading through the chapter, I probably would have skimmed right over that very important detail, and been at a loss as to why everything was broken when I inevitably forgot to convert the strings to floats.
+
+**Aha moment #2**: After calling `data()` in a function chain, you can pass `d` into an anonymous function to actually get at the individual data values in your dataset. As someone who has done even minimal programming before, this capability is borderline magic. It's so easy! You can't screw up getting the right value attached to the right element! D3 just *does it for you*. I'm starting to see the hype around D3 itself, instead of just the lovely examples of what it can produce.
+
+Overall, I find myself getting distracted by how the web works. To get by with D3, you only need a high level understanding of it, but it's pretty fascinating stuff, and I keep finding myself down rabbit holes when I search a term from the book. To keep that curiosity productive, I may switch my second D3 project to exploring a web framework instead. A preliminary search suggests Flask is the best entry-level framework, and it would build on my existing familiarity with Python, which has been withering in the year or so since I've used it.
 
 ## Week 3
 
