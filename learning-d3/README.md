@@ -4,9 +4,9 @@
 Things I did:
  * Cloned the [textbook repo](https://github.com/AllysonRosenthal/d3-book)
  * Set up development environment for D3
-  * Download D3
-  * Create index.html
-  * ~Set up a local server using Python~
+   * Download D3
+   * Create index.html
+   * ~Set up a local server using Python~
 
 ### In Class
 I spent today trying to get off the ground with D3. There's a pretty big chunk of assumed knowledge around web programming (which Murray warns about in the first chapter of his book). I thought I'd be in good shape, since I have a solid grasp of how HTML, CSS, and JavaScript work. 
