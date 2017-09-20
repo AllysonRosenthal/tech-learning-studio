@@ -29,9 +29,9 @@ Since I had yet to actually start working through any examples, I basically stil
 ## Week 2
 
 ### In Class
-**Issue**: The book tells you how to set up a Python web server with `SimpleHTTPServer`, but doesn't tell you how to stop it. So, when I went set up the learning-d3 project, I was already using the recommended port for my tech-learning-studio folder. It was easily fixed by 1. trying a different port and 2. a Stack Overflow thread with the solution, but it's a little frustrating to be asked to run a command with no note about how to kill the process.
+**Issue #1**: The book tells you how to set up a Python web server with `SimpleHTTPServer`, but doesn't tell you how to stop it. So, when I went set up the learning-d3 project, I was already using the recommended port for my tech-learning-studio folder. It was easily fixed by 1. trying a different port and 2. a Stack Overflow thread with the solution, but it's a little frustrating to be asked to run a command with no note about how to kill the process.
 
-* You can actually navigate from the tech-learning-studio folder to the learning-d3 folder if it's already being served by adding the filepath to the URL. Basic, but unlikely that anyone who needs setting up a local server explained (as in Chapter 4) will know how to navigate it once it's set up. I only figured it out after looking at the URL containing the full filepath in the Chapter 5's first example.
+  You can actually navigate from the tech-learning-studio folder to the learning-d3 folder if it's already being served by adding the filepath to the URL. Basic, but unlikely that anyone who needs setting up a local server explained (as in Chapter 4) will know how to navigate it once it's set up. I only figured it out after looking at the URL containing the full filepath in the Chapter 5's first example.
 
 **Aha moment #1**: Scott Murray calls out an almost impossible to debug issue in Chapter 5: When a CSV is pulled into D3, everything is a string. You can only see that it's a string by logging the data to the console *after* it's been pulled in (which is why we kept getting the `NaN` error yesterday, even though it was a number...before getting pulled into the script). Having an in-progress project that let me see the problem play out and then finding the solution was really satisfying, and I'll definitely remember this gotcha in the future. If I had just been reading through the chapter, I probably would have skimmed right over that very important detail, and been at a loss as to why everything was broken when I inevitably forgot to convert the strings to floats.
 
@@ -39,6 +39,33 @@ Since I had yet to actually start working through any examples, I basically stil
 
 Overall, I find myself getting distracted by how the web works. To get by with D3, you only need a high level understanding of it, but it's pretty fascinating stuff, and I keep finding myself down rabbit holes when I search a term from the book. To keep that curiosity productive, I may switch my second D3 project to exploring a web framework instead. A preliminary search suggests Flask is the best entry-level framework, and it would build on my existing familiarity with Python, which has been withering in the year or so since I've used it.
 
+### Outside of Class
+I set aside some time to work on the consumer protection project. Having a project that isn't just for class is a good motivator for me to work on it more often, especially since Open Austin meets roughly once a week, so the project lead is likely to check in with me in person. 
+
+I was able to work through enough of the chapter on bar charts to make something that actually shows up in the browser, which is awesome and validating. Along the way, I ran into some trouble getting the data to load in a useful manner. 
+
+**Issue #2**: The book example used a hardcoded array to keep the examples simple, but that made it hard for me to troubleshoot my minimally complicated CSV loading by looking at a version that works. Eventually I just flipped around the book looking for examples and cross-referencing them with their sample code online until I found one that helped.
+
+**Issue #3**: 
+ * loading out of order
+ * needed functions to be inside/chained to the function that loads the data
+ * was able to figure out because the errors and my `console.log` outputs were showing up out of order -- data wouldn't show up because it hadn't loaded yet, even though it was loaded "before" in the code
+ * I had a strong feeling that had something to do with it, since that's called out in the book as an issue. I had read that section about two weeks prior, so it was just a niggling impression that I had heard this "song" before and naming it was on the "tip of my tongue," so to speak. 
+ * benefit of actually sitting down and reading a textbook vs. jumping between that relevant parts (which I started doing because I got excited about things starting to work. Basically, my inquiry into learning D3 started to be driven by, "okay, so how do I do this thing that will make what's in front of me better?" instead of "how do I do all of D3?")
+ * The problem wasn't so much that I didn't know how to fix the problem, it's that I didn't know what the problem was. The process of finding a name for the problem was the most challenging part of the day.
+ * The project lead happened to be in the cafe I was working in (I was hanging out across the street from the location for the next Open Austin meetup a few hours before it started, so it wasn't a wild coincidence) and told me to let him know if I needed help with something, but I wanted to figure it out myself because I feel that the biggest part of being a self-sufficient programmer is being able to debug your own code. I think of it like cooking: anyone can follow a recipe if someone hands them all the pre-measured ingredients, but you're only winning *Chopped* if you can take whatever the mystery basket throws at you. It's still nice to feel supported, though.
+
+**Aha moment #3**: I wasn't totally wrong about what was happening in Aha moment #1, but I was missing a big chunk of how D3 stores data in my mental model. The `NaN` error came up again, and I was extremely sure the data was a after Aha moment #1. This time, this issue was that each item is an object, and thus `NaN`. The object has the numerical data attached to it as an attribute, so you have to tell D3 which part of that object is a number. I repeatedly clicked on the actual word `Object` in the console output to confirm that the data was a number, not a string, before it suddenly dawned on me that the items in the array were, in fact, objects, not numbers. 
+
 ## Week 3
 
+### In Class
+As I'm trying to work through some of the examples, I keep getting frustrated by not understanding *why* a particular thing behaves in certain ways. I'm not really satisfied with a function inexplicably working when it's rearranged (to reuse the issue I ran into earlier in the week as an example), and will find myself stuck, not because I can't get something to work, but because I don't know why one of the ways I poked at the problem was the magic solution. 
+
+As I've had more moments where I figured out why something works, I've realized that the structure of the book frequently introduces a scenario that I'll never use again as the "simple" task before building up to something more common. I've been letting myself get stuck on those tasks without moving on to the examples that are relevant to using D3 in practice. Today, I've been trying to catch myself getting hung up on the details of the very first example I'm given, and letting myself move on to the examples that build on (and further explain) those concepts. So far, doing that has let me recontextualize my questions with the next example, and I've had more concepts click by pushing forward and trusting that I'll get it if I let the preliminary example go for long enough to consider another application of that concept.
+
 ## Week 4
+
+## Final Stats
+**Issues**:
+**Aha moments**: 
