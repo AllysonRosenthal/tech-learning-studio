@@ -20,13 +20,18 @@ I'm going to be sure to get the setup finished, so I can spend my time in class 
 
 **Update 9/13/17**: Instructions for sharing a D3 project using bl.ocks are available [here](https://bl.ocks.org/-/about). Learning about how bl.ocks pulls in your projects via GitHub gists lead me to [this page](https://help.github.com/articles/about-gists/), which I found to be a helpful overview of gists.
 
-### Interlude
+#### New Project
 I attended one of [Open Austin's](https://www.open-austin.org/) Civic Hack Nights on Tuesday, September 12th (which was the evening before our weekly class meeting). While there, I got plugged in to a [visualization project](https://github.com/open-austin/consumer-protection) using the city's data on consumer financial complaints. We decided to use D3, since I told the project lead that I'm working on learning D3, and he was cool with using this project as a learning opportunity. 
 
 Since I had yet to actually start working through any examples, I basically still had no idea how to start writing D3. So, we started from someone else's example. Once we changed the data reference to point to our data instead of the example data, everything just stopped working. The error said the data was `NaN`, despite the CSV clearly containing numbers. The whole evening ended up going to trying (and failing) to troubleshoot that issue, but now that I'm set up with a project, I can use it to reinforce the examples in the book.
 
 
 ## Week 2
+
+Things I did:
+ * Set up a local server
+ * Made bars show up
+ * Got those bars to reflect real data
 
 ### In Class
 #### Issue #1
