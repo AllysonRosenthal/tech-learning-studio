@@ -23,3 +23,23 @@ I promptly broke everything.
  * if you try to burn everything to the ground and start over by deleting the directory, git will follow you straight into the trash
  * googling "unfuck git" [actually works](http://ohshitgit.com/)
  * added bonus of choosing a really easy contribution for my first PR: I could stick my one-line contribution here temporarily, and it's no big deal to add back to the file. So, I now know what NOT to do ever again, without a huge loss of work.
+
+I started over, following [these instructions](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) and referencing the [GitHub documentation](https://help.github.com/articles/configuring-a-remote-for-a-fork/) as needed. It worked! I made a pull request. But it failed the continuous integration checks. It looks like [other pull requests](https://github.com/vredniy/awesome-newsletters/pulls?q=is%3Apr+is%3Aclosed) have been merged after failing, and the Travis log suggests the failure wasn't because of my addition. It looks like pull requests are typically reviewed the same day, so hopefull I'll know soon whether I need to redo anything.
+
+For my own reference, here are the basic steps to contribute to a project in plain English:
+ 1. Fork the repo.
+ 2. Clone that new repo to your local machine.
+ 3. Make a branch.
+ 4. Make your changes.
+ 5. Commit to your branch.
+ 6. Push to your branch.
+ 7. Set the orginal repo as `upstream`.
+ 8. Make sure you're up to date with the upstream repo.
+ 9. Go to the original repo.
+ 10. Make a new pull request.
+
+I did these steps slightly out of order because I was referencing multiple guides (I did 7 and 8 before 3), but got to the same final result. In the future, I think the above order is better, since there's less risk of pushing upstream before you're ready, which is still a concern as I bumble around git.
+
+I definitely have a lot to learn about how all of this works, but finding [Oh shit, git!](http://ohshitgit.com/) made it clear that git can be frustrating no matter what your skill level is, which helped me put myself in context within the community of practice. 
+
+I also came across [this guide](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html), which covers virtualenv (which is used by yoda, the next project I'm planning to try contributing to).
