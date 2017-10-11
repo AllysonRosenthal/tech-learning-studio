@@ -26,6 +26,8 @@ I promptly broke everything.
 
 I started over, following [these instructions](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) and referencing the [GitHub documentation](https://help.github.com/articles/configuring-a-remote-for-a-fork/) as needed. It worked! I made a pull request. But it failed the continuous integration checks. It looks like [other pull requests](https://github.com/vredniy/awesome-newsletters/pulls?q=is%3Apr+is%3Aclosed) have been merged after failing, and the Travis log suggests the failure wasn't because of my addition. It looks like pull requests are typically reviewed the same day, so hopefull I'll know soon whether I need to redo anything.
 
+**Update**: my pull request was approved right before class ended! I've officially reached my simple goal, and am super validated as far as my ability to figure out where and how to contribute.
+
 For my own reference, here are the basic steps to contribute to a project in plain English:
  1. Fork the repo.
  2. Clone that new repo to your local machine.
