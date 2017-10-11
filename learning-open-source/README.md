@@ -40,6 +40,6 @@ For my own reference, here are the basic steps to contribute to a project in pla
 
 I did these steps slightly out of order because I was referencing multiple guides (I did 7 and 8 before 3), but got to the same final result. In the future, I think the above order is better, since there's less risk of pushing upstream before you're ready, which is still a concern as I bumble around git.
 
-I definitely have a lot to learn about how all of this works, but finding [Oh shit, git!](http://ohshitgit.com/) made it clear that git can be frustrating no matter what your skill level is, which helped me put myself in context within the community of practice. 
+I definitely have a lot to learn about how all of this works, but finding [Oh shit, git!](http://ohshitgit.com/) made it clear that git can be frustrating no matter what your skill level is, which helped me put myself in context within the community of practice. Also, [this blog](http://bryanpendleton.blogspot.com/2014/07/git-clone-vs-fork.html) has a helpful explaination of what's 'forking' and 'cloning' and how they're different, which was my main source of frustration today.
 
 I also came across [this guide](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html), which covers virtualenv (which is used by yoda, the next project I'm planning to try contributing to).
