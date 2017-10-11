@@ -44,7 +44,7 @@ After getting started with D3, I got involved in a community project for consume
 ## Goals
 **Simple** - Make a successful pull request. I'm defining "successful" as a pull request that is accepted by an open source community that I've oriented myself to via standard open source resources (like contributing.md).
 
-**Stretch** - Complete Hacktoberfest, which requires making four pull requests. That averages out to one per week, which should be doable if I don't try to do anything too fancy. 
+**Stretch** - Complete Hacktoberfest, which requires making four pull requests. That averages out to one per week, which should be doable if I don't try to do anything too fancy. However, I'd like to learn about some of the technologies surrounding open source projects, like setting up a particular development environment or using Docker, which could slow down my progress.
 
 ## Materials
  * A list of [projects participating in Hactoberfest](https://hacktoberfest.digitalocean.com/#projects)
@@ -53,6 +53,7 @@ After getting started with D3, I got involved in a community project for consume
  * [Bugs Ahoy!](https://www.joshmatthews.net/bugsahoy/?)
  * [Projects](https://github.com/showcases/great-for-new-contributors) that are known for welcoming new contributors
  * http://www.firsttimersonly.com/
+ * An example of a [git workflow](https://github.com/polygraph-cool/FYI/wiki/Git-Workflow) for reference
  
 
 # Learning Crochet
