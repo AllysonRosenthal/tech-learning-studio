@@ -23,22 +23,22 @@ D3, or data-driven documents, is a JavaScript library for creating highly custom
 * The D3 [wiki](https://github.com/d3/d3/wiki)
 * The [source page](http://www.nws.noaa.gov/hic/flood_stats/recent_individual_deaths.shtml) for the D3 Makeover challenge
 
-~~# Using D3 with Geospatial Data
-I'm using D3 as a way to explore mapping and geospatial data.~~
+# ~~Using D3 with Geospatial Data~~
+~~I'm using D3 as a way to explore mapping and geospatial data.~~
 
-~~## Goals
-**Simple** - Complete the first [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this map](http://one.laptop.org/map) using D3~~
+## ~~Goals~~
+~~**Simple** - Complete the first [D3 Makeover](http://tinyletter.com/curran/letters/introducing-d3-makeover) challenge by remaking [this map](http://one.laptop.org/map) using D3~~
 
 ~~**Stretch** - Make the map interactive.~~
 
-~~## Materials
-* *Interactive Data Visualization for the Web* by Scott Murray, especially Chapter 14: Geomapping
-* The #geo channel on the [D3 Slack](https://d3js.slack.com)
-* The [Spatial Community Slack](https://thespatialcommunity.slack.com)
-  * #d3
-  * #dataviz~~
+## ~~Materials~~
+* ~~*Interactive Data Visualization for the Web* by Scott Murray, especially Chapter 14: Geomapping~~
+* ~~The #geo channel on the [D3 Slack](https://d3js.slack.com)~~
+* ~~The [Spatial Community Slack](https://thespatialcommunity.slack.com)~~
+  * ~~#d3~~
+  * ~~#dataviz~~
 
-# Open Source
+# Learning Open Source
 After getting started with D3, I got involved in a community project for consumer protection in Ausitn using the city's data about financial complaints. In working on that, I made the mistake of committing directly to master instead of working in a branch and making a pull request. That got me thinking about the processes involved in contributing to open source projects and the competencies that are required, which I'd like to learn more about. Serendipitously, the month of October is [Hacktoberfest](https://hacktoberfest.digitalocean.com/), in which open source projects take extra steps to make sure they're welcoming new contributors. To participate, you just have to sign up with your GitHub account. 
 
 ## Goals
