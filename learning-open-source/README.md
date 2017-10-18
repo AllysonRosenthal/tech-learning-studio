@@ -48,11 +48,22 @@ I also came across [this guide](http://dont-be-afraid-to-commit.readthedocs.io/e
 
 ## Week 3
 
-* what is a "diff" -- separate file
-* diagram of where fork vs. clone vs. local repo live and how they communicate
+At the beginning of class today, I spoke with Dr. Howison about why I like [this guide](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github):
+  * It has more explanation of what's going on than most other guides (vs. just type these things in this order).
+  * It provides an introduction of each command with explanation, *then* the shortcut to smush them together. Separate commands are frequently mentioned as an aside after the shortcut, if they're mentioned at all. While that order is efficiencnt for people trying to just move on to the next step, it doesn't support understanding the git workflow or building a mental model of what's going on.
+
+I also learned that a "diff" is a separate file containing only the changed lines, and not just the term for color coding what changed with green for additions and red for deletions. I didn't get to it today, but should look into further explanations of the concept.
+
+We also constructed a diagram of where the fork vs. clone vs. local repo live and how they communicate:
 
 ![GitHub workflow diagram](git-diagram.jpg)
 
-* the technical side is at most half of what you need to know -- lots of stuff around community, culture, and how to be polite
-  * need to get a feel for the project's community prior to jumping in/looking like an asshole
+After struggling with the fuzziness around those terms last week, it was really helpful to see them laid out in relation to one another and solidfy my mental model. I'm surprised that there aren't more readily available diagrams of this workflow included in explanations of the forking and cloning process.
+
+To actually contribute to someone else's project, the technical side is only part of what you need to know--there's lots of stuff around community, culture, and how to be polite.
+
+I already spent a fair amount of time poking around projects and reading through contributing guides, which feels like way more of a minefield than making a technical error. This observation ties back into the readings the class did on [communities of practice](https://en.wikipedia.org/wiki/Community_of_practice). In particular, [legitimate peripheral particpation](https://en.wikipedia.org/wiki/Legitimate_peripheral_participation) takes the form of [asking good questions](http://www.catb.org/esr/faqs/smart-questions.html).
+
+
+As a part of open souce projects, questions should be asked in the open. Since they can be viewed as a preliminary means of contributing to the community, equal care should be taken with questions as with pull requests. Mostly, be respectful of other people's time by making a real effort to figure it out yourself and asking questions that are interesting to answer. These kinds of questions give back to the community by either furthering everyone's understanding or producing documentation about how to solve a particular issue.
 
