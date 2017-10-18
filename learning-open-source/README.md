@@ -45,3 +45,12 @@ I did these steps slightly out of order because I was referencing multiple guide
 I definitely have a lot to learn about how all of this works, but finding [Oh shit, git!](http://ohshitgit.com/) made it clear that git can be frustrating no matter what your skill level is, which helped me put myself in context within the community of practice. Also, [this blog](http://bryanpendleton.blogspot.com/2014/07/git-clone-vs-fork.html) has a helpful explaination of what's 'forking' and 'cloning' and how they're different, which was my main source of frustration today.
 
 I also came across [this guide](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html), which covers virtualenv (which is used by yoda, the next project I'm planning to try contributing to).
+
+## Week 3
+
+* what is a "diff" -- separate file
+* diagram of where fork vs. clone vs. local repo live and how they communicate
+![GitHub workflow diagram](https://github.com/AllysonRosenthal/tech-learning-studio/blob/master/learning-open-source/git-diagram.jpg)
+* the technical side is at most half of what you need to know -- lots of stuff around community, culture, and how to be polite
+  * need to get a feel for the project's community prior to jumping in/looking like an asshole
+
