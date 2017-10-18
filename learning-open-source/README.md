@@ -50,7 +50,9 @@ I also came across [this guide](http://dont-be-afraid-to-commit.readthedocs.io/e
 
 * what is a "diff" -- separate file
 * diagram of where fork vs. clone vs. local repo live and how they communicate
-![GitHub workflow diagram](https://github.com/AllysonRosenthal/tech-learning-studio/blob/master/learning-open-source/git-diagram.jpg)
+
+![GitHub workflow diagram](git-diagram.jpg)
+
 * the technical side is at most half of what you need to know -- lots of stuff around community, culture, and how to be polite
   * need to get a feel for the project's community prior to jumping in/looking like an asshole
 
